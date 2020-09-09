@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+header {
+    background: #F8F9FA;
+    border-bottom: #51BE78 3px solid;
+    
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header-1 ul a {
+    color: #51BE78;
+    text-decoration: none;
+}
+
+.header-1 ul a:hover {
+    color: rgb(151, 142, 142);
+}
+
+
+.header-1 .fa {
+    color: #51BE78;
+}
+
+
+.current {
+    color: #51BE78;
+}
+
+#showcase {
+    background: url(../img/bg.jpg) no-repeat;
+    height: 94vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.overlay {
+    background: rgb(0, 0, 0,0.8);
+    height: 94vh;
+}
+
+.header-2 {
+    padding: 20px 0;
+}
+
+img {
+    width: 80px;
+}
+
+.showcase{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showcase h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.showcase a {
+    color: white;
+}
+
+.areas {
+    /* background: #51BE78; */
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.areas ul {
+
+    display: grid;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+
+.areas ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.arrow {
+    animation: mover 1s alternate infinite;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.arrow a {
+    color:#51BE78;
+}
+
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.columns .col {
+    background: #51BE78;
+    color: white;
+    padding: 10px;
+}
+
+.columns .cols {
+    background: #222222;
+    color: #777777;
+    padding: 10px;
+}
+
+.columns .fa {
+    color: white;
+}
+
+
+footer {
+    background: white;
+    color: #777777;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+        
+    }
+}
+
+
+
+
