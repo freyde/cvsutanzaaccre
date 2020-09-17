@@ -48,7 +48,7 @@ header {
 }
 
 .overlay {
-    background: rgb(0, 0, 0,0.8);
+    background: rgb(0, 0, 0,0.6);
     height: 94vh;
 }
 
@@ -66,6 +66,10 @@ img {
     justify-content: space-evenly;
     align-items: center;
 }
+
+/* .logo img {
+    animation: mover 1s alternate infinite;
+} */
 
 .showcase h1 {
     font-size: 4rem;
@@ -93,7 +97,7 @@ img {
 .areas .btn-area {
     text-decoration: none;
     /* background: rgb(0, 0, 0, 0.4); */
-    background: rgba(44, 211, 113, 0.3);
+    background: rgb(17, 184, 86);
     color: white;
     width: 150px;
     height: 100px;
@@ -117,8 +121,8 @@ img {
 
 .dropdown .btn-success {
     text-decoration: none;
-    /* background: rgb(0, 0, 0, 0.4); */
-    background: rgba(44, 211, 113, 0.3);
+    background: rgb(0, 0, 0, 0.1);
+    /* background: rgba(44, 211, 113, 0.3); */
     color: white;
     width: 200px;
     height: 100px;
@@ -126,8 +130,8 @@ img {
 }
 
 .dropdown .btn-success:hover, .btn-success:active, .btn-success:focus {
-    /* background: rgba(44, 211, 113, 0.4); */
-    background: rgb(0, 0, 0, 0.4);
+    background: rgba(44, 211, 113, 0.5);
+    /* background: rgb(0, 0, 0, 0.4); */
     transition: background ease-in 0.2s;
 }
 
@@ -140,9 +144,9 @@ img {
 .arrow {
     animation: mover 1s alternate infinite;
     position: absolute;
-    top: 78%;
+    top: 75%;
     left: 50%;
-    transform: translate(-50%, -78%);
+    transform: translate(-50%, -75%);
 }
 
 .arrow a {
