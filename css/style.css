@@ -34,6 +34,10 @@ header {
     color: #51BE78;
 }
 
+.nav li {
+    margin: 0 10px;
+}
+
 
 .current {
     color: #51BE78;
@@ -41,7 +45,7 @@ header {
 
 #showcase {
     background: url(../img/bg.jpg) no-repeat;
-    height: 94vh;
+    max-height: 94vh;
     background-position: center;
     background-size: cover;
     color: white;
@@ -91,7 +95,7 @@ img {
 }
 
 .areas {
-    padding-top:40px;
+
 }
 
 .areas .btn-area {
