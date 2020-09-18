@@ -59,9 +59,8 @@
         font-size: 14px;
     }
 
-
-    /* .arrow {
-        display: block;
-    } */
+    header {
+        display: none;
+    }
 
 }
