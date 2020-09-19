@@ -8,7 +8,6 @@
     <link rel="shortcut icon" type="image/png" href="img/logo.png" />
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/queries.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -24,65 +23,52 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  -->
 
+    
+
 </head> 
 <body>  
 
-    <Header>
-        <div class="container">
-            <div class="header-1">
-                
-                <ul class="nav">
-
-                    <li class="mr-3"><a href="">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        991-100-100
-                    </a></li>
-
-                    <li><a href="">
-                        <i class="fa fa-google" aria-hidden="true"></i>
-                        cvsutanza@cvsu.edu.ph
-                    </a></li>
-
-                </ul>
-
-                <ul class="nav">
-                
-                    <li><a href="">
-                            <i class="fa fa-lock" aria-hidden="true"></i>
-                            Login
-                        </a></li>
-                
-                    <li class=""><a href="">
-                            <i class="fa fa-recycle" aria-hidden="true"></i>
-                            Register
-                        </a></li>
-                
-                </ul>
-
-            </div>
-        </div>
-    </Header>
     
-    
-    <section id="showcase">
+    <section id="header">
         <div class="overlay">
             <div class="container">
 
-                <div class="showcase">
-                
-                    <div class="logo" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
-                        <img src="img/logo.png" alt="">
-                    </div>
+                <nav class="header">
 
-                    <div class="title">
-                        <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">Cavite State University <span class="current">Tanza</span></h1>
-
-                        <div class="grid-line d-flex justify-content-end">
-                            <div class="line"></div>
+                    <div class="showcase">
+                        <div class="logo" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                    
+                        <div class="title">
+                            <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">Cavite State University <span
+                                    class="current">Tanza</span></h1>
+                    
+                            <div class="grid-line d-flex justify-content-end">
+                                <div class="line" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"></div>
+                            </div>
                         </div>
                     </div>
                     
-                </div>
+                    <div class="contacts">
+                        <ul class="nav">
+                    
+                            <li class="mr-3" class="line" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"><a href="">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    991-100-100
+                                </a></li>
+                    
+                            <li class="line" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100"><a href="">
+                                    <i class="fa fa-google" aria-hidden="true"></i>
+                                    cvsutanza@cvsu.edu.ph
+                                </a></li>
+                    
+                        </ul>
+                    </div>
+
+                </nav>
+
+              
 
                 <div class="areas">
                     <ul>
@@ -283,6 +269,19 @@
 
     <script>
         $(".dropdown-trigger").dropdown();
+    </script>
+
+    <script type="text/javascript">
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+                $('.areas').addClass('hide');
+                
+            } else {
+                $('nav').removeClass('black');
+                $('.areas').removeClass('hide');
+            }
+        });
     </script>
  
 </body>     
