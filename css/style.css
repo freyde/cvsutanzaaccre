@@ -199,6 +199,10 @@
 
 }
 
+#courses .card .card-text {
+    color: #777777;
+}
+
 
 .address {
     padding: 70px 0;
