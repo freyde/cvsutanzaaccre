@@ -10,7 +10,7 @@
 
 
 #header {
-    background: url(../img/bg.jpg) no-repeat;
+    background: url(../img/bg2.png) no-repeat;
     max-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .overlay {
-    background: rgb(0, 0, 0,0.5);
+    background: rgb(0, 0, 0, 0.5);
     height: 100vh;
 }
 
@@ -37,7 +37,6 @@
 
 .header {
     position: fixed;
-    top: 0;
     left: 0;
     width: 100%;
     padding: 10px 100px;
@@ -88,7 +87,7 @@
 }
 
 .areas {
-    padding: 150px 0;
+    padding: 75px 0;
     transition: 1s;
 }
 
@@ -111,7 +110,7 @@
 
 .dropdown .btn-success {
     text-decoration: none;
-    background: rgb(0, 0, 0, 0.1);
+    background: rgba(1, 87, 29, 0.959);
     /* background: rgba(44, 211, 113, 0.3); */
     color: white;
     width: 200px;
@@ -249,6 +248,8 @@ footer p {
     }
 }
 
-
+.container {
+    top: 2;
+}
 
 
