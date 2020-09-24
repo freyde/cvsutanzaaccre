@@ -23,7 +23,7 @@
 }
 
 .black {
-    background: white;
+    background: rgb(247, 245, 245);
     color:#51BE78;
 }
 
@@ -126,9 +126,16 @@
 }
 
 
-
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover>.dropdown-menu{
     display: block;
+}
+
+.dropdown:hover>.btn-success .fa {
+    color: white;
+}
+
+.dropdown-menu {
+    width: 200px;
 }
 
 .arrow {
@@ -168,6 +175,7 @@
 
 #courses {
     background: rgb(254, 255, 254);
+    border-bottom: 0.2px solid #e9dada;
 }
 
 #courses .main {
@@ -192,7 +200,18 @@
 }
 
 
+.address {
+    padding: 70px 0;
+}
 
+.address h3{
+    font-weight: bold;
+    color: #51BE78;
+}
+
+.address p {
+    color: #777777;
+}
 
 
 
