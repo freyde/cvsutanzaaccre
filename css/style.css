@@ -147,11 +147,9 @@
     width: 70px;
 }
 
-/* #vision-mission {
-   background: url(../img/bg-vm.png) no-repeat;
-   background-position: left;
-   background-size: cover;
-} */
+#vision-mission {
+    border-bottom: 0.2px solid #e9dada;
+}
 
 #vision-mission .content {
     padding: 70px 0;
