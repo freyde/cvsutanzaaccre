@@ -35,10 +35,6 @@
     color: #51BE78;
 }
 
-
-
-
-
 .header {
     position: fixed;
     top: 0;
@@ -151,31 +147,61 @@
     width: 70px;
 }
 
+/* #vision-mission {
+   background: url(../img/bg-vm.png) no-repeat;
+   background-position: left;
+   background-size: cover;
+} */
 
-.columns {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+#vision-mission .content {
+    padding: 70px 0;
 }
 
-.columns .col {
-    background: #51BE78;
-    color: white;
-    padding: 10px;
+#vision-mission .content h4 {
+   color:#51BE78;
+   padding: 10px;
+   font-weight: bold;
 }
 
-.columns .cols {
-    background: #222222;
+#vision-mission .content p {
     color: #777777;
-    padding: 10px;
+    
 }
 
-.columns .fa {
-    color: white;
+#courses {
+    background: rgb(254, 255, 254);
 }
+
+#courses .main {
+    padding: 70px 0;
+}
+
+#courses .title {
+    padding-bottom: 50px;
+}
+
+#courses .title h3 {
+     color:#51BE78;
+    font-weight: bold;
+    margin: 0;
+}
+
+#courses .title .line {
+    color: #51BE78;
+    width: 40px;
+    height: 5px;
+
+}
+
+
+
+
+
+
 
 
 footer {
-    background: white;
+    background: #222222;
     color: #777777;
 }
 
