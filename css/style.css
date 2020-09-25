@@ -87,7 +87,7 @@
 }
 
 .areas {
-    padding: 75px 0;
+    padding: 90px 0;
     transition: 1s;
 }
 
@@ -99,7 +99,7 @@
 .areas ul {
      display: grid;
      grid-gap: 10px;
-     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
      justify-items: center;
      align-items: center;
 }
@@ -110,12 +110,13 @@
 
 .dropdown .btn-success {
     text-decoration: none;
-    background: rgba(1, 87, 29, 0.959);
+    background: rgb(1, 119, 40);
     /* background: rgba(44, 211, 113, 0.3); */
     color: white;
-    width: 200px;
-    height: 100px;
-    border: none;
+    width: 190px;
+    height: 80px;
+    border-color: rgb(219, 191, 33);
+    border-width: medium;
 }
 
 .dropdown .btn-success:hover, .btn-success:active, .btn-success:focus {
@@ -251,5 +252,11 @@ footer p {
 .container {
     top: 2;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
