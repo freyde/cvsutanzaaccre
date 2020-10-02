@@ -115,8 +115,8 @@
     color: white;
     width: 190px;
     height: 80px;
-    border-color: rgb(219, 191, 33);
-    border-width: medium;
+    border-color: rgb(207, 177, 5);
+    border-width: thick;
 }
 
 .dropdown .btn-success:hover, .btn-success:active, .btn-success:focus {
