@@ -154,29 +154,45 @@
     width: 70px;
 }
 
-#vision-mission {
-    border-bottom: 0.2px solid #e9dada;
+/* VisionMission  */
+
+
+
+#vmq .vmq-logo img {
+    width: 30px;
 }
 
+#vmq .vmq .vmq-col {
+    -webkit-box-shadow: 10px 6px 25px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 25px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 25px -8px rgba(0,0,0,0.75);
+}
 
-#vision-mission .vision {
+#vmq .vmq h5 {
+    font-weight: bold;
+}
+
+#vmq .vmq p {
+    color: #646363;
+}
+
+#vmq .quality-p {
     background: #222222;
 }
 
-.vision-mission {
-    padding: 70px 0;
+#vmq .quality-p h5{
+    color: white;
+
 }
 
-#vision-mission .content h4 {
-   color:#19c056ee;
-   padding: 10px;
-   font-weight: bold;
+#vmq .quality-p p{
+    color: #b4b2b2;
 }
 
-#vision-mission .content p {
-    color: #777777;
-    
-}
+
+
+
+/* Courses */
 
 #courses {
     background: rgb(254, 255, 254);
