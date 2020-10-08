@@ -162,6 +162,10 @@
     width: 30px;
 }
 
+#vmq .vmq-logo {
+    margin-bottom: 70px;
+}
+
 #vmq .vmq .vmq-col {
     -webkit-box-shadow: 10px 6px 25px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 6px 25px -8px rgba(0,0,0,0.75);
@@ -174,19 +178,17 @@
 
 #vmq .vmq p {
     color: #646363;
+
 }
 
-#vmq .quality-p {
+#vmq .vmq-col {
+    height: 350px;
+
+}
+
+
+#vmq .vmq .quality-p {
     background: #222222;
-}
-
-#vmq .quality-p h5{
-    color: white;
-
-}
-
-#vmq .quality-p p{
-    color: #b4b2b2;
 }
 
 
@@ -195,7 +197,7 @@
 /* Courses */
 
 #courses {
-    background: rgb(254, 255, 254);
+    background: #222222;
     border-bottom: 0.2px solid #e9dada;
 }
 
@@ -208,7 +210,7 @@
 }
 
 #courses .title h3 {
-     color:#19c056ee;
+     color:white;
     font-weight: bold;
     margin: 0;
 }
