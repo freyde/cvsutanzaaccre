@@ -8,7 +8,6 @@
    
 }
 
-
 #header {
     background: url(../img/bg5.jpg) no-repeat;
     max-height: 100vh;
@@ -106,23 +105,30 @@
      align-items: center;
 }
 
-.btn-success .fa {
-    color:white;
-}
+
 
 .dropdown .btn-success {
     text-decoration: none;
     background: rgb(1, 119, 40);
     color: white;
-    width: 190px;
-    height: 80px;
+    width: 200px;
+    height: 90px;
     border: gold 3px solid;
     
 }
 
 .dropdown .btn-success:hover {
-    background:  rgb(207, 177, 5);
+    background:  gold;
     transition: background ease-in 0.2s;
+    color: rgb(1, 119, 40);
+    border: none;
+}
+
+.dropdown:hover>.btn-success {
+    background:  gold;
+    transition: background ease-in 0.2s;
+    color: rgb(1, 119, 40);
+    border: none;
 }
 
 
@@ -130,17 +136,11 @@
     display: block;
 }
 
-.dropdown:hover>.btn-success .fa {
-    color: white;
-}
 
 .dropdown-menu {
     width: 200px;
 }
 
-#exhibits-contacts {
-    position: fixed;
-}
 
 .arrow {
     animation: mover 1s alternate infinite;
