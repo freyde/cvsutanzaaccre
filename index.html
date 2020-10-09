@@ -228,9 +228,15 @@
                     </ul>
                 </div>
 
+                <!-- <div class="exhibits-contacts">
+                    <div class="container">
+                        <button class="btn btn-sm btn-warning">Exhibits</button>
+                    </div>
+                </div> -->
+
 
                 <div class="arrow text-center">
-                    <a href="#vision-mission" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
+                    <a href="#vmq" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
                         <!-- <i class="fa fa-arrow-circle-down fa-3x" aria-hidden="true"></i> -->
                         <img src="img/pngwing.com.png" alt="">
                     </a>
@@ -241,51 +247,54 @@
     </section>
 
     <section id="vmq">
-        <div class="container vmq my-5">
+        <div class="container">
 
-            <div class="row vmq-logo text-center">
-                <div class="col">
-                    <img src="img/logo.png" alt="">
-                </div>
-            </div>  
-
-            <div class="row my-5 vmq-row justify-content-center">
-                
-                <div class="col-lg-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
-                    <div class="vmq-col p-3">
-                        <div class="sub-title mb-4">
-                            <h5>Vision</h5>
-                        </div>
-                        <div class="paragraph">
-                            <p>The premier university in historic Cavite recognized for excellence in the development of globally competitive and morally upright individuals</p>
+            <div class="vmq">
+                <div class="row vmq-logo text-center mt-5">
+                    <div class="col">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>  
+    
+                <div class="row vmq-row justify-content-center">
+                    
+                    <div class="col-lg-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="vmq-col p-3">
+                            <div class="sub-title mb-4">
+                                <h5>Vision</h5>
+                            </div>
+                            <div class="paragraph">
+                                <p>The premier university in historic Cavite recognized for excellence in the development of globally competitive and morally upright individuals</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-lg-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
-                    <div class="vmq-col p-3">
-                        <div class="sub-title mb-4">
-                            <h5>Mission</h5>
-                        </div>
-                        <div class="paragraph">
-                            <p>Cavite State University shall provide excellent, equitable and relevant educational opportunities in the arts, sciences and technology through quality instruction and responsive research and development activities. It shall produce professional, skilled and morally upright individuals for global competitiveness.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
-                    <div class="vmq-col p-3 quality-p">
-                        <div class="sub-title mb-4">
-                            <h5 class="text-white">Quality Policy</h5>
-                        </div>
-                        <div class="paragraph">
-                            <p>We <span class="text-white">C</span>ommit to the highest standards of education, <span class="text-white">v</span>alue our stakeholders, <span class="text-white">S</span>trive for continual improvement of our products and services, and <span class="text-white">U</span>phold the University’s tenets of Truth, Excellence, and Service to produce globally competitive and morally upright individuals.
-                            </p>
+    
+                    <div class="col-lg-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="vmq-col p-3">
+                            <div class="sub-title mb-4">
+                                <h5>Mission</h5>
+                            </div>
+                            <div class="paragraph">
+                                <p>Cavite State University shall provide excellent, equitable and relevant educational opportunities in the arts, sciences and technology through quality instruction and responsive research and development activities. It shall produce professional, skilled and morally upright individuals for global competitiveness.</p>
+                            </div>
                         </div>
                     </div>
+    
+                    <div class="col-lg-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
+                        <div class="vmq-col p-3 quality-p">
+                            <div class="sub-title mb-4">
+                                <h5 class="text-white">Quality Policy</h5>
+                            </div>
+                            <div class="paragraph">
+                                <p>We <span class="text-white">C</span>ommit to the highest standards of education, <span class="text-white">v</span>alue our stakeholders, <span class="text-white">S</span>trive for continual improvement of our products and services, and <span class="text-white">U</span>phold the University’s tenets of Truth, Excellence, and Service to produce globally competitive and morally upright individuals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
                 </div>
-
             </div>
+            
         </div>
     </section>
 
@@ -406,11 +415,11 @@
         $(window).on('scroll', function () {
             if ($(window).scrollTop()) {
                 $('nav').addClass('black');
-                $('.areas').addClass('hide');
+                // $('.areas').addClass('hide');
                 
             } else {
                 $('nav').removeClass('black');
-                $('.areas').removeClass('hide');
+                // $('.areas').removeClass('hide');
             }
         });
 
@@ -421,6 +430,31 @@
         });
         
     </script>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+        <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+            });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your Chat Plugin code -->
+        <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="106191901207562"
+    theme_color="#13cf13">
+        </div>
  
 </body>     
 </html> 
