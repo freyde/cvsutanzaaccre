@@ -114,6 +114,7 @@
     width: 200px;
     height: 90px;
     border: gold 3px solid;
+    border-radius: 15px;
     
 }
 
@@ -142,6 +143,8 @@
 }
 
 
+
+
 .arrow {
     animation: mover 1s alternate infinite;
     position: absolute;
@@ -166,8 +169,10 @@
     width: 30px;
 }
 
+
+
 #vmq .vmq-row {
-    margin: 90px 0;
+    margin: 100px 0;
 }
 
 #vmq .vmq .vmq-col {
